@@ -1,0 +1,40 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+html,
+body{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(to right bottom,lightblue,white);
+}
+input {
+    width: 34vw;
+    height: 4vw;
+    border-radius: 0.5vw;
+    outline: none;
+    border: none;
+    /* border-bottom: 0.2vw solid black; */
+    padding: 1.3vw;
+    font-size: 25px;
+    /* background-color: transparent; */
+}
+small{
+    font-size: 17px;
+    color: red;
+}
+button {
+    height: 3vw;
+    width: 34vw;
+    margin-top: 6vw;
+    /* background-color: transparent; */
+    border: 2px solid grey;
+    border-radius: 1vw;
+    font-size: 1.5vw;
+    /* box-shadow: 2px 2px 5px blue; */
+    outline: none;
+}
